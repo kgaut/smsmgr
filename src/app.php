@@ -7,7 +7,7 @@ use Kgaut\BBF\NewsletterSubscriptionForm;
 $app = require(__DIR__.'/bootstrap.php');
 
 $app->get('/', function () use ($app)  {
-  $streamer = Prewk\XmlStringStreamer::createStringWalkerParser(BASEPATH.'/sms-2015-09-07 11-55-39.xml');
+  $streamer = Prewk\XmlStringStreamer::createStringWalkerParser(BASEPATH.$file);
   $i = 0;
   while ($node = $streamer->getNode() && $i<=50) {
     $i++;
