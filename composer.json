@@ -1,6 +1,7 @@
 {
     "require": {
         "silex/silex": "^1.3",
-        "symfony/var-dumper": "^3.0"
+        "symfony/var-dumper": "^3.0",
+        "prewk/xml-string-streamer": "^0.7.2"
     }
 }

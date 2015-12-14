@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1ff50b8225d78ba03d50c541d746c50a",
-    "content-hash": "9b8749279d6d49425137cb58de31c0e3",
+    "hash": "d450617985dba91013ec5c1c0fa18296",
+    "content-hash": "ed5f95ab2a14b7fefd012916fc798a05",
     "packages": [
         {
             "name": "pimple/pimple",
@@ -52,6 +52,47 @@
                 "dependency injection"
             ],
             "time": "2013-11-22 08:30:29"
+        },
+        {
+            "name": "prewk/xml-string-streamer",
+            "version": "0.7.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/prewk/xml-string-streamer.git",
+                "reference": "0b8bc138af1d5fc1182e5d1b283165511ae99ec7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/prewk/xml-string-streamer/zipball/0b8bc138af1d5fc1182e5d1b283165511ae99ec7",
+                "reference": "0b8bc138af1d5fc1182e5d1b283165511ae99ec7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "dev-master",
+                "prewk/xml-faker": "0.0.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Prewk\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "prewk",
+                    "email": "oskar.thornblad@gmail.com"
+                }
+            ],
+            "description": "Stream large XML files with low memory consumption",
+            "homepage": "https://github.com/prewk/xml-string-streamer",
+            "time": "2015-11-04 19:26:24"
         },
         {
             "name": "psr/log",
